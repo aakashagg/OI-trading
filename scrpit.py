@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 
 # --- Mode Configuration ---
-IS_TESTING = True        # True = Replay & Plot NSE Chart API data | False = Live OI Polling
+IS_TESTING = False        # True = Replay & Plot NSE Chart API data | False = Live OI Polling
 RECORD_LIVE_DATA = True  # Saves live 2.5-min OI snapshots to a file for future backtesting
 
 # --- Strategy Configuration ---
